@@ -1,0 +1,26 @@
+[
+  {
+    "chainId": 101,
+    "address": "DnepvMafJZzDtDcevrqbMUCmDqdNhBLjCTUu1xhR4HeL",
+    "symbol": "SDLP",
+    "name": "Sterlingdex LP Token",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/master/assets/mainnet/DnepvMafJZzDtDcevrqbMUCmDqdNhBLjCTUu1xhR4HeL.png",
+    "tags": [
+      "lp-token",
+      "dex",
+      "sterling",
+      "cashback"
+    ],
+    "extensions": {
+      "website": "https://sterlingdex.org",
+      "bridgeEndpoint": "http://localhost:1492/bridge",
+      "realPegUSD": true,
+      "cashbackBacked": true,
+      "sovereignControlled": true,
+      "treasuryUSD": 174000,
+      "origin": "SterlingChain",
+      "instagram": "@Label92saintgobain"
+    }
+  }
+]
