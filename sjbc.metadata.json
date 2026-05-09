@@ -1,0 +1,113 @@
+{
+  "name": "SJBC USD",
+  "symbol": "SJBC",
+  "description": "SJBC is the on-chain quote mint of the public canonical Sterling market STM/SJBCUSD. SJBCUSD is the public USD quote label for this same mint, while USDC remains the public settlement rail. Sterling exposes canonical market data, proof, tokenlist, pool registry, chart embed, wallet support and integration packs for public explorers, wallets, indexers and aggregators. SJBC/SJBCUSD is presented by Sterling as a sovereign TrueCash USD quote asset with cash-backed and real-peg flags enabled in the public metadata.",
+  "image": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+  "external_url": "https://sterlingchain.net",
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+        "type": "image/png"
+      }
+    ]
+  },
+  "extensions": {
+    "mint_address": "EsNo61QodqHCRjkTGJDeqyK7N4Hunip5PaTYbpPZEsG2",
+    "type": "SPL",
+    "category": "STABLE_TOKENS",
+    "currency": "USD",
+    "decimals": 9,
+    "true_cash_label": "TrueCash USD",
+    "cash_backing_label": "Cash-backed public Sterling quote asset",
+    "peg_label": "Real USD peg flag enabled by Sterling metadata",
+    "price_reference": "Canonical pool STM/SJBCUSD BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+    "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+    "canonical_pair": "STM/SJBCUSD",
+    "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+    "base_vault": "3mRYBWgBKnQuUyvVDcYFqSeNoQTujTsFGra3GWLof9av",
+    "quote_vault": "5z4brtXmcDBhPKLk9YoiZE7fqaourBk26jBuAUHqZDN9",
+    "fee_vault_base": "HgaLTe9cp398Y2svc8qmK4R7Xi2da46iWeTyM4jH3LFP",
+    "fee_vault_quote": "BjjVF8NhtRtCvmcdQEbFRY3ebkbLKyDa7KAmBTH2LBAp",
+    "lp_mint": "G94nkBm4ntjiEHNzTpd7GRW9J8H5rqrhW83k5RSHZrBZ",
+    "supply_max": "18446744073709551615",
+    "supply_circulating": "18446744073709551615",
+    "owner": "ECXHuS3GZ6FvqVge6drGoKcYQZQbhaiBSq5sYc1J2raV",
+    "authority": "CMqD45Kq5oukPvaMDhzav5RxJqZb1xME1MmV71CzCeTw",
+    "update_authority": "CMqD45Kq5oukPvaMDhzav5RxJqZb1xME1MmV71CzCeTw",
+    "metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
+    "pair_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pair.metadata.json",
+    "pair_metadata_profile_uri": "https://sterlingchain.net/pair-metadata.json",
+    "pair_metadata_ipfs_uri": null,
+    "public_symbol": "SJBCUSD",
+    "quote_onchain_symbol": "SJBC",
+    "quote_public_label": "SJBCUSD",
+    "settlement_symbol": "USDC",
+    "website": "https://sterlingchain.net",
+    "documentation": "https://sterlingchain.net/for-integrators",
+    "indexer_documentation": "https://sterlingchain.net/for-indexers",
+    "wallet_support": "https://sterlingchain.net/wallet",
+    "chart_embed": "https://sterlingchain.net/embed/chart",
+    "api_base": "https://api.sterlingchain.net",
+    "api_manifest": "https://api.sterlingchain.net/integration-manifest.json",
+    "proof_url": "https://api.sterlingchain.net/proof.json",
+    "tokenlist_url": "https://api.sterlingchain.net/tokenlist.json",
+    "pool_registry_url": "https://api.sterlingchain.net/pool-registry.json",
+    "provider_pack_solscan": "https://sterlingchain.net/provider-packs/solscan.json",
+    "provider_packs": "https://sterlingchain.net/provider-packs.json",
+    "market_summary": "https://sterlingchain.net/market-summary.json",
+    "latest_price": "https://sterlingchain.net/price.json",
+    "price_feed_url": "https://api.sterlingchain.net/proof.json",
+    "openapi": "https://api.sterlingchain.net/openapi.json",
+    "discovery": "https://sterlingchain.net/.well-known/sterling.json",
+    "integrators_discovery": "https://sterlingchain.net/.well-known/sterling-integrators.json",
+    "wallets_discovery": "https://sterlingchain.net/.well-known/sterling-wallets.json",
+    "mirrors": {
+      "canonical_metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
+      "canonical_image_uri": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "ipfs_image_uri": "ipfs://bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "ipfs_image_gateway": "https://ipfs.io/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "pinata_gateway": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "integrity_manifest": "https://sterlingchain.net/.well-known/sterling-assets-integrity.json"
+    },
+    "roles": {
+      "STM": "base_asset",
+      "SJBC": "onchain_quote_mint",
+      "SJBCUSD": "public_usd_quote_label",
+      "USDC": "settlement_rail",
+      "1492": "orchestration_control_layer",
+      "8012": "canonical_market_truth"
+    },
+    "capabilities": {
+      "canonical_market_api": true,
+      "public_chart": true,
+      "wallet_connect": true,
+      "provider_packs": true,
+      "tokenlist": true,
+      "pool_registry": true,
+      "proof_manifest": true,
+      "indexer_ready": true,
+      "aggregator_readable": true
+    },
+    "rust_flags_reference": {
+      "TRUE_CASH_FLAG": true,
+      "CASH_BACKED_FLAG": true,
+      "REAL_PEG_FLAG": true,
+      "SOVEREIGN_FLAG": true
+    },
+    "flags": {
+      "stable_token": true,
+      "quote_asset": true,
+      "true_cash": true,
+      "true_cash_usd": true,
+      "cash_backed": true,
+      "real_peg": true,
+      "sovereign": true,
+      "public_usd_quote": true,
+      "settlement_rail_usdc": true,
+      "canonical_market_quote": true
+    },
+    "status": "active"
+  }
+}
