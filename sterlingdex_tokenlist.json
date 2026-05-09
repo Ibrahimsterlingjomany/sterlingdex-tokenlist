@@ -106,7 +106,10 @@
           "SJBC": "onchain_quote_mint",
           "SJBCUSD": "public_usd_quote_label",
           "USDC": "settlement_rail"
-        }
+        },
+        "true_cash_label": "TrueCash USD",
+        "cash_backing_label": "Cash-backed public Sterling canonical market surface",
+        "peg_label": "Real USD peg flag enabled by Sterling public metadata"
       }
     },
     {
@@ -152,7 +155,10 @@
           "SJBC": "onchain_quote_mint",
           "SJBCUSD": "public_usd_quote_label",
           "USDC": "settlement_rail"
-        }
+        },
+        "true_cash_label": "TrueCash USD",
+        "cash_backing_label": "Cash-backed public Sterling canonical market surface",
+        "peg_label": "Real USD peg flag enabled by Sterling public metadata"
       }
     }
   ]
