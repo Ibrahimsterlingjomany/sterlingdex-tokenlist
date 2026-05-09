@@ -16,12 +16,28 @@
     "cashback": {
       "name": "Cashback",
       "description": "Token with exit cashback policy"
+    },
+    "market-asset": {
+      "name": "Market Asset",
+      "description": "Canonical Sterling market asset"
+    },
+    "stable-quote": {
+      "name": "Stable Quote",
+      "description": "Canonical Sterling stable quote asset"
+    },
+    "truecash-usd": {
+      "name": "TrueCash USD",
+      "description": "Sterling public TrueCash USD semantics"
+    },
+    "settlement-aware": {
+      "name": "Settlement Aware",
+      "description": "Token metadata includes settlement rail semantics"
     }
   },
-  "timestamp": "2026-01-03T00:00:00+00:00",
+  "timestamp": "2026-05-09T00:00:00+00:00",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
   "tokens": [
@@ -47,6 +63,88 @@
         "treasuryUSD": 174000,
         "origin": "SterlingChain",
         "instagram": "@Label92saintgobain"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "9kued2JXgVk5dzvtipsTdXfBMWihy1E55TwMiXchCoAb",
+      "symbol": "STM",
+      "name": "Starling Mint",
+      "decimals": 9,
+      "logoURI": "https://ipfs.io/ipfs/bafybeicjvgitqvam4ez7rxvalhlcq5ox6354blyd55qh6leqybxia7alzm",
+      "tags": [
+        "dex",
+        "sterling",
+        "cashback",
+        "market-asset",
+        "truecash-usd",
+        "settlement-aware"
+      ],
+      "extensions": {
+        "website": "https://sterlingchain.net",
+        "metadata_uri": "https://sterlingchain.net/token-assets/stm.metadata.json",
+        "github_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/sterlingdex-tokenlist/master/stm.metadata.json",
+        "canonical_pair": "STM/SJBCUSD",
+        "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+        "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+        "base_vault": "3mRYBWgBKnQuUyvVDcYFqSeNoQTujTsFGra3GWLof9av",
+        "quote_vault": "5z4brtXmcDBhPKLk9YoiZE7fqaourBk26jBuAUHqZDN9",
+        "fee_vault_base": "HgaLTe9cp398Y2svc8qmK4R7Xi2da46iWeTyM4jH3LFP",
+        "fee_vault_quote": "BjjVF8NhtRtCvmcdQEbFRY3ebkbLKyDa7KAmBTH2LBAp",
+        "trueCashUSD": true,
+        "cashbackBacked": true,
+        "realPegUSD": true,
+        "sovereignControlled": true,
+        "public_explainer_title": "STM est l'actif de marche, de profondeur et d'execution.",
+        "public_explainer": "STM (Starling Mint) est l'actif communautaire fondateur de l'ecosysteme Sterling. Ne d'une logique d'audience, d'interaction sociale, de visibilite et de communaute active depuis 2016, STM incarne une economie d'image, de message, de reseau et d'engagement liee aux univers Instagram, Facebook, social et trading. Son identite visuelle et son embleme portent une histoire de presence numerique, de communaute active et de circulation de valeur dans l'univers social et trading.",
+        "roles": {
+          "STM": "base_asset",
+          "SJBC": "onchain_quote_mint",
+          "SJBCUSD": "public_usd_quote_label",
+          "USDC": "settlement_rail"
+        }
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EsNo61QodqHCRjkTGJDeqyK7N4Hunip5PaTYbpPZEsG2",
+      "symbol": "SJBCUSD",
+      "name": "SJBC USD",
+      "decimals": 9,
+      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "tags": [
+        "dex",
+        "sterling",
+        "cashback",
+        "stable-quote",
+        "truecash-usd",
+        "settlement-aware"
+      ],
+      "extensions": {
+        "website": "https://sterlingchain.net",
+        "metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
+        "github_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/sterlingdex-tokenlist/master/sjbc.metadata.json",
+        "canonical_pair": "STM/SJBCUSD",
+        "onchain_symbol": "SJBC",
+        "public_symbol": "SJBCUSD",
+        "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+        "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+        "base_vault": "3mRYBWgBKnQuUyvVDcYFqSeNoQTujTsFGra3GWLof9av",
+        "quote_vault": "5z4brtXmcDBhPKLk9YoiZE7fqaourBk26jBuAUHqZDN9",
+        "fee_vault_base": "HgaLTe9cp398Y2svc8qmK4R7Xi2da46iWeTyM4jH3LFP",
+        "fee_vault_quote": "BjjVF8NhtRtCvmcdQEbFRY3ebkbLKyDa7KAmBTH2LBAp",
+        "trueCashUSD": true,
+        "cashbackBacked": true,
+        "realPegUSD": true,
+        "sovereignControlled": true,
+        "public_explainer_title": "SJBCUSD est le rail de settlement stable de Sterling.",
+        "public_explainer": "SJBCUSD porte la reference economique de reglement. Son role est de garder une lecture USD stable, bridge-backed et exploitable pour la treasury, les claims, les proofs et les futures sorties vers USDC ou USDT.",
+        "roles": {
+          "STM": "base_asset",
+          "SJBC": "onchain_quote_mint",
+          "SJBCUSD": "public_usd_quote_label",
+          "USDC": "settlement_rail"
+        }
       }
     }
   ]
