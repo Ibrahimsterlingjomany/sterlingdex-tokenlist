@@ -1,0 +1,102 @@
+{
+  "name": "STM/SJBCUSD Canonical Pool",
+  "symbol": "STM-SJBCUSD",
+  "description": "STM/SJBCUSD is the public canonical Sterling market pool. STM is the base asset, SJBC is the on-chain quote mint, SJBCUSD is the public USD quote label, and USDC is the public settlement rail. Sterling exposes this pool as a sovereign TrueCash USD market pool with cash-backed and real-peg flags enabled in the public metadata so explorers, wallets, Solana lists and indexers can read the market roles clearly.",
+  "image": "https://ipfs.io/ipfs/bafybeicjvgitqvam4ez7rxvalhlcq5ox6354blyd55qh6leqybxia7alzm",
+  "external_url": "https://sterlingchain.net",
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://ipfs.io/ipfs/bafybeicjvgitqvam4ez7rxvalhlcq5ox6354blyd55qh6leqybxia7alzm",
+        "type": "image/jpeg"
+      },
+      {
+        "uri": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+        "type": "image/png"
+      }
+    ]
+  },
+  "extensions": {
+    "type": "DEX_POOL",
+    "category": "CANONICAL_TRUECASH_POOL",
+    "true_cash_label": "TrueCash USD",
+    "cash_backing_label": "Cash-backed public Sterling canonical pool",
+    "peg_label": "Real USD peg flag enabled by Sterling public metadata",
+    "canonical_pair": "STM/SJBCUSD",
+    "pair_id": "STM-SJBCUSD",
+    "pair_slug": "stm-sjbcusd",
+    "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+    "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+    "config_pda": "Htopqis52g8nGvvkpnG7Z7XZhgBpqtN9huqUyk6LH9gB",
+    "base_mint": "9kued2JXgVk5dzvtipsTdXfBMWihy1E55TwMiXchCoAb",
+    "quote_mint": "EsNo61QodqHCRjkTGJDeqyK7N4Hunip5PaTYbpPZEsG2",
+    "settlement_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "base_vault": "3mRYBWgBKnQuUyvVDcYFqSeNoQTujTsFGra3GWLof9av",
+    "quote_vault": "5z4brtXmcDBhPKLk9YoiZE7fqaourBk26jBuAUHqZDN9",
+    "fee_vault_base": "HgaLTe9cp398Y2svc8qmK4R7Xi2da46iWeTyM4jH3LFP",
+    "fee_vault_quote": "BjjVF8NhtRtCvmcdQEbFRY3ebkbLKyDa7KAmBTH2LBAp",
+    "debt_ledger": "2Fr4WPEC51CUtDdqArStKMmTEuippeHMHFCH46mjgxQv",
+    "lp_mint": "G94nkBm4ntjiEHNzTpd7GRW9J8H5rqrhW83k5RSHZrBZ",
+    "authority": "CMqD45Kq5oukPvaMDhzav5RxJqZb1xME1MmV71CzCeTw",
+    "base_metadata_uri": "https://sterlingchain.net/token-assets/stm.metadata.json",
+    "quote_metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
+    "settlement_metadata_uri": "https://sterlingchain.net/token-assets/usdc.metadata.json",
+    "pair_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pair.metadata.json",
+    "pair_metadata_profile_uri": "https://sterlingchain.net/pair-metadata.json",
+    "pool_registry_profile_uri": "https://sterlingchain.net/pool-registry.json",
+    "proof_url": "https://api.sterlingchain.net/proof.json",
+    "tokenlist_url": "https://api.sterlingchain.net/tokenlist.json",
+    "pool_registry_url": "https://api.sterlingchain.net/pool-registry.json",
+    "market_summary": "https://sterlingchain.net/market-summary.json",
+    "latest_price": "https://sterlingchain.net/price.json",
+    "chart_embed": "https://sterlingchain.net/embed/chart",
+    "wallet_support": "https://sterlingchain.net/wallet",
+    "documentation": "https://sterlingchain.net/for-integrators",
+    "indexer_documentation": "https://sterlingchain.net/for-indexers",
+    "discovery": "https://sterlingchain.net/.well-known/sterling.json",
+    "integrators_discovery": "https://sterlingchain.net/.well-known/sterling-integrators.json",
+    "wallets_discovery": "https://sterlingchain.net/.well-known/sterling-wallets.json",
+    "roles": {
+      "STM": "base_asset",
+      "SJBC": "onchain_quote_mint",
+      "SJBCUSD": "public_usd_quote_label",
+      "USDC": "settlement_rail",
+      "1492": "orchestration_control_layer",
+      "8012": "canonical_market_truth"
+    },
+    "capabilities": {
+      "canonical_market_api": true,
+      "public_chart": true,
+      "wallet_connect": true,
+      "provider_packs": true,
+      "tokenlist": true,
+      "pool_registry": true,
+      "proof_manifest": true,
+      "indexer_ready": true,
+      "aggregator_readable": true
+    },
+    "rust_flags_reference": {
+      "TRUE_CASH_FLAG": true,
+      "CASH_BACKED_FLAG": true,
+      "REAL_PEG_FLAG": true,
+      "SOVEREIGN_FLAG": true
+    },
+    "flags": {
+      "canonical_market_pool": true,
+      "true_cash": true,
+      "true_cash_usd": true,
+      "cash_backed": true,
+      "real_peg": true,
+      "sovereign": true,
+      "public_usd_quote": true,
+      "settlement_rail_usdc": true
+    },
+    "metadata_hashes": {
+      "stm_metadata_cid": "bafkreihymckoankrsukgbi722odaqakcsm3zduybaruywje7phpxatfvwqok",
+      "sjbc_metadata_cid": "bafkreiaczlpeybhlwlefrkmhhlnnztida3c37nvk2faox5fd2g5hiekvtq",
+      "pair_metadata_cid": "bafkreihy34j33smevvd5cawi76b52iik5in2kh3d6sz4wngapqtynhkvm4"
+    },
+    "status": "active"
+  }
+}
